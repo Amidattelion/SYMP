@@ -1,2 +1,2 @@
 # SYMP
-SYMP is a customizable Soundboard for Youtube Music Playlists written in Python. It comes with two GUI allowing the user to easily save youtube musics to playlists and play them using a soundboard interface or shortcuts. 
+SYMP (Soundboard for Youtube Music Playlists) allows you to quickly save the musics you're listening on Youtube to custome playlists, and later play these playlists using a Soundboard like GUI with customisable shortcuts and no Youtube ads.
