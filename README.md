@@ -3,13 +3,22 @@ SYMP (Soundboard for Youtube Music Playlists) allows you to quickly save the mus
 
 # Requirements:
 - vlc (https://www.videolan.org/)
+- git (https://git-scm.com/download/win)
+
+You must define a git environment variable. On windows: 
+- press Win+R
+- write "SystemPropertiesAdvanced", press enter
+- click on "Environment Variable"
+- in the "user variables" pan (upper pan), click on "Path" and press "Edit"
+- press "New" and add the following line: "C:\Program Files\Git\bin\" (this is the default path if you installed git for windows, otherwise change the path so it points toward the folder containing git.exe)
   
 # Setup:
-The code have been tested for Linux and is functionnal, but the following instructions are for Windows (setup guide for Linux will come when ready).
+The code have only been tested on Windows, but should works on Linux.
 
 **1 - Clone the repository with git (https://github.com/Amidattelion/SYMP.git) or download and extract it**
 
 **2 - Install the requirements with pip:**
+
 It is advised to first create and activate a dedicated virtual environment before proceeding.
 Open a terminal and cd in the "SYMP" folder that you have just extracted, then run the following command to install the python dependencies:
 
@@ -25,12 +34,15 @@ You have thus to do the following modifications to the pafy module:
 
 - navigate to the "Lib\site-packages\pafy" folder (the location of the "Lib" folder depends on your python installation and/or virtual environment setup)
 - open the "backend_youtube_dl.py" file with any text editor and change the following lines:
+  
 ```
 [13] import youtube_dl
 [53] self._likes = self._ydl_info['like_count']
 [54] self._dislikes = self._ydl_info['dislike_count']
 ```
+
 To:
+
 ```
 [13] import yt_dlp as youtube_dl
 [53] self._likes = self._ydl_info('like_count',0)
