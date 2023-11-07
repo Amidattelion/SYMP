@@ -1,6 +1,21 @@
 # SYMP
 SYMP (Soundboard for Youtube Music Playlists) allows you to quickly save the musics you're listening on Youtube in custome playlists, and later play these playlists using a Soundboard like GUI with customisable shortcuts and no Youtube ads.
 
+# What ? Why ?
+
+This code was motivated by several reasons: as a tabletop-RPG GameMaster, I love having lots of thematic playlists ready to launch for my player immersion: a playlist for epic fights, to explore a mysterious forest, or wandering in a cyberpunk city... Such playlists already exist on Youtube/Spotify/YourFavoriteStreamingWebsite, but I wanted something:
+- without ads,
+- with a soundboard like GUI and shortcuts to quickly start any playlist,
+- highly customisable
+
+Plus, I am a huge fan of film and video game soundtrack: modern OSTs are often orchestrated and they are by design created to serve the audience's immersion and stimulate its imagination. Listening to a lot of films OST and VGM compilations on Youtube, I wanted my tool to be able to connect to the running Youtube tab and allow me to quickly add the music I'm currently listening to any of my playlists with a simple click. 
+
+With all of this in mind, I built this little tool:
+
+![image](https://github.com/Amidattelion/SYMP/assets/87083034/c5e91ece-7e4b-4afc-a3b3-74efb07a3123)
+
+It comes with 2 versions of the same GUI: one that connects to a running Youtube session and allows to add the currently playing music (extracted from the other songs in the same video) to any of the registered playlists, and the other acting like a Soundboard with binded shortcuts to quickly launch any of my customs playlists without ads.
+
 # Requirements:
 - vlc (https://www.videolan.org/)
 - git (https://git-scm.com/download/win)
@@ -11,7 +26,7 @@ You must define a git environment variable. On windows:
 - click on "Environment Variable"
 - in the "user variables" pan (upper pan), click on "Path" and press "Edit"
 - press "New" and add the following line: "C:\Program Files\Git\bin\" (this is the default path if you installed git for windows, otherwise change the path so it points toward the folder containing git.exe)
-  
+
 # Setup:
 The code have only been tested on Windows, but should works on Linux.
 
