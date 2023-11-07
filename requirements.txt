@@ -1,0 +1,6 @@
+keyboard==0.13.5
+numpy==1.23.4
+python_vlc==3.0.18122
+selenium==4.15.2
+webdriver_manager==3.8.6
+yt_dlp

@@ -74,7 +74,7 @@ class PlaylistWindow(tk.Tk):
     def __init__(self, dir, use_shortcuts=None):
         # initialize this children class through the parent initialization process
         tk.Tk.__init__(self)
-        self.title("JDR music")
+        self.title("SYMP")
         # the directory containing the playlists
         self.dir = dir
         # create the mainframe that hold both buttons & the log
