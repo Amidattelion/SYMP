@@ -796,7 +796,7 @@ def read_shortcuts(path,encoding='utf-8'):
     shortcut = {}
     with open(path,'r+',encoding=encoding) as f:
         for l in f.readlines():
-            file,key = l.replace(' ','').replace('\t','').split(':')
+            file,key = l.split(' : ')
             key = key.replace('\n','')
             shortcut[file]=key
     return(shortcut)

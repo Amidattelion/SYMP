@@ -1,4 +1,4 @@
-Rock.m3u 	: ctrl+f1
+Rock.m3u : ctrl+f1
 Dubstep.m3u	: ctrl+f2
-Forest.m3u 	: ctrl+shift+f1
-Fight.m3u 	: ctrl+shift+f2
+Forest.m3u : ctrl+shift+f1
+Fight.m3u : ctrl+shift+f2
