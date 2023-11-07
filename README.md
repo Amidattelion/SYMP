@@ -12,7 +12,7 @@ Plus, I am a huge fan of film and video game soundtrack: modern OSTs are often o
 
 With all of this in mind, I built this little tool:
 
-![image](https://github.com/Amidattelion/SYMP/assets/87083034/c5e91ece-7e4b-4afc-a3b3-74efb07a3123)
+![image](https://github.com/Amidattelion/SYMP/assets/87083034/0a94aa9b-0e4e-4cbc-b196-a414caf4b3c4)
 
 It comes with 2 versions of the same GUI: one that connects to a running Youtube session and allows to add the currently playing music (extracted from the other songs in the same video) to any of the registered playlists, and the other acting like a Soundboard with binded shortcuts to quickly launch any of my customs playlists without ads.
 
